@@ -13,3 +13,8 @@ ent = Entry(root, text='',font='Arial 25', width='15')
 ent.pack()
 Button(root, text='Разблокировать', font='Arial 25', command = btn_click).pack()
 root.mainloop()
+
+def main():
+    pass
+if __name__ == 'main':
+    main()
